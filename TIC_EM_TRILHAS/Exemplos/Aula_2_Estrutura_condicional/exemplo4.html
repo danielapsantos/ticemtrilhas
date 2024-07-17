@@ -1,0 +1,13 @@
+<meta charset="UTF-8">
+<script>
+    alert("Cálculo da área de um círculo");
+
+    let raio = +prompt("Digite o valor do raio: ");
+
+    if (raio > 0){
+        let area =  (Math.PI)*raio*raio;
+        window.alert("A àrea é: " + area.toFixed(2) + "m2");
+    } else {
+        window.alert("O raio não pode ser nulo ou negativo");
+    }
+</script>
